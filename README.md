@@ -4,7 +4,7 @@
 
 There are two ways to install, the first and recommended way is via `Package Control`:
 
-1. Make sure you have `Package Control` installed, see <<https://packagecontrol.io/installation>
+1. Make sure you have `Package Control` installed, see <https://packagecontrol.io/installation>
 2. Search for `Direct Copy` using `Package Control` and install
 
 Another way is to clone source from github:
