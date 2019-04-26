@@ -4,18 +4,7 @@ settings = {}
 
 def plugin_loaded():
     global settings
-
-    # if user-setting file is empty, load default setting into user-setting file
-    defaultFile = 'Default.sublime-settings'
-    userFile = 'DirectCopy.sublime-settings'
-
-    userSettings = sublime.load_settings(userFile)
-    if userSettings.get('entry') is None:
-        default = sublime.load_settings(defaultFile)
-        userSettings.set('entry', default.get('entry'))
-        sublime.save_settings(userFile)
-
-    settings = sublime.load_settings(userFile)
+    settings = sublime.load_settings('DirectCopy.sublime-settings')
 
 
 class DirectCopyCommand(sublime_plugin.TextCommand):

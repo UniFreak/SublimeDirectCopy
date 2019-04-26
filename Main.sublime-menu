@@ -15,7 +15,7 @@
                         [
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/DirectCopy/Default.sublime-settings"},
+                                "args": {"file": "${packages}/DirectCopy/DirectCopy.sublime-settings"},
                                 "caption": "Settings – Default"
                             },
                             {
